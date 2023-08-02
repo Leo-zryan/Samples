@@ -2,7 +2,7 @@
 
 DefaultRouteRemovalPageRouteModelConvention类是一个实现了IPageRouteModelConvention接口的自定义类。它用于移除指定路由的默认路由。在这里，它被用来移除空路由（String.Empty）的默认路由。
 
-在Startup.cs文件的ConfigureServices方法中，通过services.AddRazorPages来添加Razor Pages服务，并且通过options.Conventions来添加自定义约定。
+在Program.cs文件中通过builder.Services.AddRazorPages来添加Razor Pages服务，并且通过options.Conventions来添加自定义约定。
 
 options.Conventions.Add(new DefaultRouteRemovalPageRouteModelConvention(String.Empty))语句添加了DefaultRouteRemovalPageRouteModelConvention约定，用于移除空路由（即根目录）的默认路由。
 
