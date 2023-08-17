@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorLocalizationWeb", "RazorLocalizationWeb.csproj", "{F62C3C50-88A1-44C2-9A72-D606FE835ABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F62C3C50-88A1-44C2-9A72-D606FE835ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62C3C50-88A1-44C2-9A72-D606FE835ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62C3C50-88A1-44C2-9A72-D606FE835ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62C3C50-88A1-44C2-9A72-D606FE835ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4CBD4F4-50EE-4E78-B66F-AE00CA1AEEF3}
+	EndGlobalSection
+EndGlobal
